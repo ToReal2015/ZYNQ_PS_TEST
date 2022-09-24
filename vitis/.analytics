@@ -1,0 +1,9 @@
+timestamp=[2022-09-23 16:10:33], mode=WORKBENCH_START, duration=0:00:04.897, duration_ms=4897, data={}
+timestamp=[2022-09-23 16:10:34], mode=WORKBENCH_UI_INIT, duration=0:00:00.438, duration_ms=438, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2022-09-23 16:10:37], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:02.091, duration_ms=2091, data={}
+timestamp=[2022-09-23 16:12:11], mode=PLATFORM_CREATION, duration=0:00:21.515, duration_ms=21515, data={platform_source=dsa, os=standalone, processor=psu_cortexa53, platform=null}
+timestamp=[2022-09-23 16:13:32], mode=APP_CREATION, duration=0:00:09.970, duration_ms=9970, data={name=xgpiops_polled_example_1, project_type=sdk, os=standalone, processor=cortex-a53, runtime=C/C++, platform=design_1_wrapper, application_type=application}
+timestamp=[2022-09-23 16:30:22], mode=PLATFORM_GENERATION, duration=0:11:49.305, duration_ms=709305, data={name=design_1_wrapper}
+timestamp=[2022-09-23 16:30:28], mode=BUILD, duration=0:00:05.213, duration_ms=5213, data={name=xgpiops_polled_example_1, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 17:25:04], mode=BUILD, duration=0:00:04.791, duration_ms=4791, data={name=xgpiops_polled_example_1, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 17:31:50], mode=BUILD, duration=0:00:03.498, duration_ms=3498, data={name=xgpiops_polled_example_1, configuration=Debug, clean_build=false}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Memory>
+    <Block Addr="0xFF0A0000" Context="JTAG-jsn-JTAG-HS1-210512180081-5ba00477-0A0" Size="-1">
+        <Rendering ID="org.eclipse.debug.ui.rendering.hexint" Pane="org.eclipse.debug.ui.MemoryView.RenderingViewPane.1"/>
+    </Block>
+</Memory>

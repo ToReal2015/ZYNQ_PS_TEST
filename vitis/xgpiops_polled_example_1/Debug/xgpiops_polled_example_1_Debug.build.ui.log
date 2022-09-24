@@ -1,0 +1,24 @@
+2022-09-23T17:31:46.774810700255-17:31:46 **** Incremental Build of configuration Debug for project xgpiops_polled_example_1 ****
+000-make all 
+000-'Building file: ../src/xgpiops_polled_example.c'
+000-'Invoking: ARM v8 gcc compiler'
+000-aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xgpiops_polled_example.o" -ID:/Oflim/Projects/220923_ps_mio/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bspinclude/include -MMD -MP -MF"src/xgpiops_polled_example.d" -MT"src/xgpiops_polled_example.o" -o "src/xgpiops_polled_example.o" "../src/xgpiops_polled_example.c"
+000/xgpiops_polled_example_1/src/xgpiops_polled_example.c265-1-1'GpioInputExample' defined but not used [-Wunused-function]1GpioInputExample../src/xgpiops_polled_example.c:265:12: warning: 'GpioInputExample' defined but not used [-Wunused-function]
+000-  265 | static int GpioInputExample(u32 *DataRead)
+000-      |            ^~~~~~~~~~~~~~~~
+000-'Finished building: ../src/xgpiops_polled_example.c'
+000-' '
+000-'Building target: xgpiops_polled_example_1.elf'
+000-'Invoking: ARM v8 gcc linker'
+000-aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/Oflim/Projects/220923_ps_mio/vitis/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_domain/bsplib/lib -o "xgpiops_polled_example_1.elf"  ./src/xgpiops_polled_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: xgpiops_polled_example_1.elf'
+000-' '
+000-'Invoking: ARM v8 Print Size'
+000-aarch64-none-elf-size xgpiops_polled_example_1.elf  |tee "xgpiops_polled_example_1.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  39660	   2064	  20748	  62472	   f408	xgpiops_polled_example_1.elf
+000-'Finished building: xgpiops_polled_example_1.elf.size'
+000-' '
+00255-
+17:31:50 Build Finished (took 3s.491ms)
+
